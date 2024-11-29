@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="5" passed="4" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-29T11:55:42Z" name="Test Suite for Buildout" finished-at="2024-11-29T11:56:54Z" duration-ms="72454">
+    <groups>
+    </groups>
+    <test started-at="2024-11-29T11:55:42Z" name="Test Cases for Buildout" finished-at="2024-11-29T11:56:54Z" duration-ms="72454">
+      <class name="demo.TestCases">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:demo.TestCases@72758afa]" started-at="2024-11-29T17:25:42Z" name="startBrowser" finished-at="2024-11-29T17:25:44Z" duration-ms="2147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method is-config="true" signature="goToYT()[pri:0, instance:demo.TestCases@72758afa]" started-at="2024-11-29T17:25:44Z" name="goToYT" finished-at="2024-11-29T17:25:52Z" duration-ms="7648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToYT -->
+        <test-method signature="testCase01()[pri:0, instance:demo.TestCases@72758afa]" started-at="2024-11-29T17:25:52Z" name="testCase01" finished-at="2024-11-29T17:25:53Z" duration-ms="916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase01 -->
+        <test-method is-config="true" signature="goToYT()[pri:0, instance:demo.TestCases@72758afa]" started-at="2024-11-29T17:25:53Z" name="goToYT" finished-at="2024-11-29T17:25:57Z" duration-ms="4514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToYT -->
+        <test-method signature="testCase02()[pri:0, instance:demo.TestCases@72758afa]" started-at="2024-11-29T17:25:57Z" name="testCase02" finished-at="2024-11-29T17:26:16Z" duration-ms="18619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase02 -->
+        <test-method is-config="true" signature="goToYT()[pri:0, instance:demo.TestCases@72758afa]" started-at="2024-11-29T17:26:16Z" name="goToYT" finished-at="2024-11-29T17:26:20Z" duration-ms="4511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToYT -->
+        <test-method signature="testCase03()[pri:0, instance:demo.TestCases@72758afa]" started-at="2024-11-29T17:26:20Z" name="testCase03" finished-at="2024-11-29T17:26:40Z" duration-ms="19633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase03 -->
+        <test-method is-config="true" signature="goToYT()[pri:0, instance:demo.TestCases@72758afa]" started-at="2024-11-29T17:26:40Z" name="goToYT" finished-at="2024-11-29T17:26:44Z" duration-ms="4461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToYT -->
+        <test-method signature="testCase04()[pri:0, instance:demo.TestCases@72758afa]" started-at="2024-11-29T17:26:44Z" name="testCase04" finished-at="2024-11-29T17:26:54Z" duration-ms="9115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase04 -->
+        <test-method signature="testCase05(java.lang.String)[pri:0, instance:demo.TestCases@72758afa]" started-at="2024-11-29T17:26:54Z" name="testCase05" finished-at="2024-11-29T17:26:54Z" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method testCase05 requires 1 parameters but 0 were supplied in the @Test annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method testCase05 requires 1 parameters but 0 were supplied in the @Test annotation.
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:191)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:127)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:376)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:451)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1274)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:989)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1079)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:153)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:95)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+	at com.sun.proxy.$Proxy4.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:200)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:121)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase05 -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:demo.TestCases@72758afa]" started-at="2024-11-29T17:26:54Z" name="endTest" finished-at="2024-11-29T17:26:54Z" duration-ms="882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- demo.TestCases -->
+    </test> <!-- Test Cases for Buildout -->
+  </suite> <!-- Test Suite for Buildout -->
+</testng-results>
